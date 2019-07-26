@@ -34,7 +34,7 @@ private:
 		//functions
 		const void play(const float& dt) {
 			//Update Timer
-			this->timer += 120.0f * dt;
+			this->timer += 90.0f * dt;
 			if (this->timer >= this->animationTimer) {
 				//reset timer
 				this->timer = 0.f;
